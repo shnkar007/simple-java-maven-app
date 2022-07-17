@@ -44,5 +44,7 @@ public class AppTest
     public void cleanUpStreams() {
         System.setOut(null);
     }
-
+    public void something(){
+		System.out.println("kuba");
+	}
 }
