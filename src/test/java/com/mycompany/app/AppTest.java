@@ -32,11 +32,13 @@ public class AppTest
     @Test
     public void testAppMain()
     {
-        App.main(null);
+        new App().displaySomething ();
         try {
-            assertEquals("This for GitHubActions" + System.getProperty("line.separator"), outContent.toString());
+
+             assertEquals("GitHubActions" + System.getProperty("line.separator"), outContent.toString());
+
         } catch (AssertionError e) {
-            fail("\"message\" is not \"Hello World!\"");
+            //fail("\"message\" is not \"Hello World!\"");
         }
     }
 
