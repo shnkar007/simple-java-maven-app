@@ -6,17 +6,24 @@ package com.mycompany.app;
 public class App
 {
 
-    private final String message = "This for GitHubActions";
+    private final String message = "GitHubActions";
 
     public App() {}
 
     public static void main(String[] args) {
-        System.out.println(new App().getMessage());
-        System.out.println("messagedelivered");
+        System.out.println("\n"+"hi");
+        App myApp = new App();
+        myApp.displaySomething ();
+
+
     }
 
     private final String getMessage() {
         return message;
+    }
+    public void displaySomething(){
+        System.out.println(getMessage().toString());
+        System.out.println("something is wrong");
     }
 
 }
