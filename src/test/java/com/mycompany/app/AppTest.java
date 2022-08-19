@@ -36,7 +36,7 @@ public class AppTest
         try {
 
             // assertTrue("GitHubActions123" + System.getProperty("line.separator"), outContent.toString());
-               assertTrue("GitHubActions123"==outContent.toString());
+               assertTrue("GitHubActions fail"==outContent.toString());
         } catch (AssertionError e) {
             fail("\"message\" is not \"Hello World!\"");
         }
