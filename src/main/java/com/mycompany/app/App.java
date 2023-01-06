@@ -11,7 +11,7 @@ public class App
     public App() {}
 
     public static void main(String[] args) {
-        System.out.println("\n"+"hi");
+        System.out.println("\n"+"hi jan training");
         App myApp = new App();
         myApp.displaySomething ();
 
