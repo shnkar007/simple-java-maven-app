@@ -6,7 +6,7 @@ package com.mycompany.app;
 public class App
 {
 
-    private final String message = "GitHubActions fail";
+    private final String message = "Welcome to Jenkins Demo";
 
     public App() {}
 
